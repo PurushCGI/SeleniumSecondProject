@@ -14,7 +14,7 @@ public class LoginLogout{
 		// TODO Auto-generated method stub
 		
 		 String currentDir = System.getProperty("user.dir");
-
+/*
 		System.setProperty("webdriver.chrome.driver",  "C:\\DevOps\\SelemiumSecondTest\\Drivers\\chromedriver.exe");	
 		WebDriver driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
@@ -25,9 +25,11 @@ public class LoginLogout{
 		driver.findElement(By.name("submit")).click();
 		String message=driver.findElement(By.xpath("/html/body/div[2]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[1]/td/h3")).getText();
 		Assert.assertEquals("Login Successfully", message, "Login is successful");
+				driver.quit();
+
+		*/
 		
 		System.out.println("Login and Logout successfully");
-		driver.quit();
 		}
 }
 				
