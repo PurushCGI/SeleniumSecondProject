@@ -25,7 +25,7 @@ public class LoginLogout{
 		driver.findElement(By.name("submit")).click();
 		String message=driver.findElement(By.xpath("/html/body/div[2]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[1]/td/h3")).getText();
 		Assert.assertEquals("Login Successfully", message, "Login is successful");
-		System.out.println("Login and Logout successfull");
+		System.out.println("Login and Logout successfully");
 		driver.quit();
 		}
 }
