@@ -23,5 +23,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/DevOps/SelemiumSecondTest/Drivers/chromedriver.exe"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
