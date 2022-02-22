@@ -25,7 +25,14 @@
                 <suiteXmlFiles>
                     <suiteXmlFile>testng.xml</suiteXmlFile>
                 </suiteXmlFiles>
-     <outputDirectory>C:\Projects\Selenium-docker</outputDirectory>
+    <archive>
+          <manifest>
+            <addClasspath>true</addClasspath>
+            <classpathPrefix>lib/</classpathPrefix>
+            <mainClass>com.selemium.test</mainClass>
+          </manifest>
+       </archive>
+    
                 </configuration>
         </plugin>
     </plugins>
