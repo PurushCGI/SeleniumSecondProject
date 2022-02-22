@@ -25,7 +25,8 @@
                 <suiteXmlFiles>
                     <suiteXmlFile>testng.xml</suiteXmlFile>
                 </suiteXmlFiles>
-            </configuration>
+     <outputDirectory>C:\Projects\Selenium-docker</outputDirectory>
+                </configuration>
         </plugin>
     </plugins>
     </build>
@@ -50,7 +51,17 @@
     <version>4.0.0-alpha-7</version>
 </dependency>
 
-
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-common</artifactId>
+    <version>2.7.2</version>
+    <exclusions>
+        <exclusion>
+            <groupId>jdk.tools</groupId>
+            <artifactId>jdk.tools</artifactId>
+        </exclusion>
+    </exclusions>
+</dependency>
   </dependencies>
   <properties>
      <maven.compiler.source>1.8</maven.compiler.source>

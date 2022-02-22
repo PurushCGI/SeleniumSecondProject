@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33908" started-at="2022-01-10T16:30:39Z" finished-at="2022-01-10T16:31:13Z">
+  <suite name="Default suite" duration-ms="63" started-at="2022-02-19T15:55:50Z" finished-at="2022-02-19T15:55:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33908" started-at="2022-01-10T16:30:39Z" finished-at="2022-01-10T16:31:13Z">
+    <test name="Default test" duration-ms="63" started-at="2022-02-19T15:55:50Z" finished-at="2022-02-19T15:55:50Z">
       <class name="com.selemium.test.LoginLogout">
-        <test-method status="PASS" signature="LoginLogoutTest()[pri:0, instance:com.selemium.test.LoginLogout@5622fdf]" name="LoginLogoutTest" duration-ms="33892" started-at="2022-01-10T22:00:39Z" finished-at="2022-01-10T22:01:13Z">
+        <test-method status="PASS" signature="LoginLogoutTest()[pri:0, instance:com.selemium.test.LoginLogout@604ed9f0]" name="LoginLogoutTest" duration-ms="14" started-at="2022-02-19T21:25:50Z" finished-at="2022-02-19T21:25:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginLogoutTest -->
